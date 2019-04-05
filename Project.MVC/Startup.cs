@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Project.Service.Data;
 
 namespace Project.MVC
 {
@@ -26,7 +27,7 @@ namespace Project.MVC
         public void ConfigureServices(IServiceCollection services)
         {         
             services.AddMvc();
-            services.AddEntityFrameworkNpgsql().AddDbContext<Project.Service.Data.CarContext>(opt => opt.UseNpgsql(Configuration.GetConnectionString("MyWebApiConnection")));
+            services.AddEntityFrameworkNpgsql().AddDbContext<CarContext>(opt => opt.UseNpgsql(Configuration.GetConnectionString("MyWebApiConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
