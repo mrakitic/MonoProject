@@ -41,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Data\CarContext.cs" />
     <Compile Include="Migrations\20190328142253_CreateVehicleDB.cs" />
     <Compile Include="Migrations\20190328142253_CreateVehicleDB.Designer.cs">
