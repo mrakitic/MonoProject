@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using Project.Data;
+using Project.Service.Data;
 
-namespace Project.Migrations
+namespace Project.Service.Migrations
 {
     [DbContext(typeof(CarContext))]
     [Migration("20190328142253_CreateVehicleDB")]

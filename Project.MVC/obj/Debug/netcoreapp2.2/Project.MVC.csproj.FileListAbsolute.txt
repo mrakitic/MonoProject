@@ -18,3 +18,16 @@ C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\obj\Debug\netcoreapp2.2\R
 C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
 C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\obj\Debug\netcoreapp2.2\Project.MVC.RazorTargetAssemblyInfo.cache
 C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\obj\Debug\netcoreapp2.2\Project.MVC.RazorTargetAssemblyInfo.cs
+C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\obj\Debug\netcoreapp2.2\Project.MVC.dll
+C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\obj\Debug\netcoreapp2.2\Project.MVC.pdb
+C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\bin\Debug\netcoreapp2.2\Project.MVC.deps.json
+C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\bin\Debug\netcoreapp2.2\Project.MVC.runtimeconfig.json
+C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\bin\Debug\netcoreapp2.2\Project.MVC.runtimeconfig.dev.json
+C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\bin\Debug\netcoreapp2.2\Project.MVC.dll
+C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\bin\Debug\netcoreapp2.2\Project.MVC.pdb
+C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\bin\Debug\netcoreapp2.2\Project.MVC.Views.dll
+C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\bin\Debug\netcoreapp2.2\Project.MVC.Views.pdb
+C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\bin\Debug\netcoreapp2.2\Project.Service.pdb
+C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\bin\Debug\netcoreapp2.2\Project.Service.dll.config
+C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\obj\Debug\netcoreapp2.2\Project.MVC.Views.pdb
+C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\obj\Debug\netcoreapp2.2\Project.MVC.csproj.CopyComplete

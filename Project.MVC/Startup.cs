@@ -36,6 +36,7 @@ namespace Project.MVC
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                
             }
             else
             {

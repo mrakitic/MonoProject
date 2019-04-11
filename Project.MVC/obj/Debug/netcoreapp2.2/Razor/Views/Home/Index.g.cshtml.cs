@@ -19,12 +19,12 @@ using Project.MVC;
 #line default
 #line hidden
 #line 2 "C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\Views\_ViewImports.cshtml"
-using Project.MVC.Models;
+using Project.Service.Models;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c294d5d608e07b2e2cfb658169f7fa450c7dec1f", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"80ae9779d434f348bc1b97cbbf0b586dcea6d1a5", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dac83617010a13d78bdc4672fcee4a06ecdc1079", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
