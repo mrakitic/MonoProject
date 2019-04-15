@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Project.Service;
 using Project.Service.Data;
 
 namespace Project.MVC
@@ -27,6 +28,8 @@ namespace Project.MVC
         public void ConfigureServices(IServiceCollection services)
         {         
             services.AddMvc();
+            services.AddSingleton(Configuration);
+            services.AddScoped<IVehicleAsset, VehicleService>();
             services.AddEntityFrameworkNpgsql().AddDbContext<CarContext>(opt => opt.UseNpgsql(Configuration.GetConnectionString("MyWebApiConnection")));
         }
 

@@ -30,6 +30,13 @@ namespace Project.MVC.Controllers
                     DateCreated = DateTime.Now,
                     DateUpdated = DateTime.Now
         });
+
+            var model = new AssetIndexModel()
+            {
+                Assets = listResult
+            };
+
+            return View(model);
         }
     }
 }

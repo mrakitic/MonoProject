@@ -1,0 +1,26 @@
+﻿@model Project.MVC.Models.Catalog.AssetIndexModel
+
+<div id="assets">
+    <h3>Car Catalog</h3>
+    <div id="assetsTable">
+        <table class="table table-condensed" id="catalogIndexTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Abrv</th>                   
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var asset in Model.Assets)
+                {
+                    <tr class="assetRow">
+                        <td class="">@asset.Name</td>
+                        <td class="">@asset.Abrv</td>
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
