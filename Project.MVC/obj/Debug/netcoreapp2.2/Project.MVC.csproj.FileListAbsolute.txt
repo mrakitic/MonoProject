@@ -31,3 +31,4 @@ C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\bin\Debug\netcoreapp2.2\P
 C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\bin\Debug\netcoreapp2.2\Project.Service.dll.config
 C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\obj\Debug\netcoreapp2.2\Project.MVC.Views.pdb
 C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\obj\Debug\netcoreapp2.2\Project.MVC.csproj.CopyComplete
+C:\Users\Borna\Desktop\MonoProject\Project\Project.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Car\Index.g.cshtml.cs

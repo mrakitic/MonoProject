@@ -1,29 +1,42 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using Project.MVC.Models.Catalog;
+using Project.Service;
+using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Project.MVC.ViewModel;
 
 namespace Project.MVC.Controllers
 {
     public class CarController : Controller
     {
+        private IVehicleAsset _assets;
+
+        public CarController(IVehicleAsset assets)
+        {
+            _assets = assets;
+        }
+
         public IActionResult Index()
         {
-            return View();
-        }
+            var assetModels = _assets.GetAllVehicleMake();
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+            var listResult = assetModels
+                .Select(result => new AssetMakeModel
+                {
+                    Id = result.Id,
+                    Name = result.Name,
+                    Abrv = result.Abrv,
+                    DateCreated = DateTime.Now,
+                    DateUpdated = DateTime.Now
+        });
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            var model = new AssetIndexModel()
+            {
+                Assets = listResult
+            };
+
+            return View(model);
         }
     }
 }

@@ -19,6 +19,6 @@ namespace Project.Service
         void AddVehicleMake(VehicleMake newVehicle);
         void AddVehicleModel(VehicleModel newModel);
 
-        string GetAbrv(string abrv);
+        VehicleMake GetAbrv(string abrv);
     }
 }
